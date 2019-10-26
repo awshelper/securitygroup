@@ -1,0 +1,14 @@
+{
+  "Information": ["Security Rule Update helper for AWS."],
+  "profile": "default",
+  "region": "eu-central-1",
+  "configuration": "Debug",
+  "s3-prefix": "AWSHelper.SecurityGroup/",
+  "template": "serverless.template",
+  "template-parameters": "",
+  "msbuild-parameters": "--self-contained true /p:AssemblyName=bootstrap",
+  "framework": "netcoreapp3.0",
+  "s3-bucket": "aws-helper-securitygroup-files",
+  "stack-name": "aws-helper-securitygroup",
+  "stack-wait": true
+}
