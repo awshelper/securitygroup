@@ -19,7 +19,14 @@
 				"Role": null,
 				"Policies": ["AWSLambdaFullAccess"],
 				"Environment": {
-					"Variables": {}
+					"Variables": {
+						"AWSHELPER_API_SECRET": "YOUR-API-SECRET-TO-SECURE-IT",
+						"AWSHELPER_NAME_PREFIX": "YOUR-NAME-PREFIX",
+						"AWSHELPER_GROUP_ID": "YOUR-SECURITY-GROUP-ID",
+						"AWSHELPER_ACCESS_ID": "YOUR-ACCESS-ID",
+						"AWSHELPER_ACCESS_SECRET": "YOUR-ACCESS-SECRET",
+						"AWSHELPER_REGION": "YOUR-AWS-REGION"
+					}
 				},
 				"Events": {
 					"ProxyResource": {
